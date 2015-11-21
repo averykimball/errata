@@ -1,6 +1,6 @@
 // Ramda style utility functions
 
-// Function covenant : (key, value))
+// Function covenant : (key, value)
 var traverseObj = function (func, obj) {
   var partialTraverse =  function (partialObj) {
     for (var c in partialObj) {
@@ -19,7 +19,7 @@ var traverseObj = function (func, obj) {
   }
 };
 
-// Function covenant : (key, value))
+// Function covenant : (key, value)
 var mapObj = function (func, obj) {
   if (obj === null || typeof obj === "undefined") {
     return function(partialObj){
